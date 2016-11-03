@@ -1,0 +1,21 @@
+{
+    "name": "vev/web-labs",
+    "description": "Web-labs of VEV",
+    "require": {
+        "twig/twig": "^1.26"
+    },
+    "authors": [
+        {
+            "name": "V E",
+            "email": "vasilenko.evgeniya1996@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VEVWebLab\\": "vevcore/" 
+        }
+    },
+    "config": {
+        "disable-tls": false
+    }
+}
